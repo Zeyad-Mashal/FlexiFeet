@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <script
+      src="https://kit.fontawesome.com/9efa984a6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  </head>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./images/logo.png"
+          alt=""
+          onclick="window.location.href='index.html'"
+        />
+      </div>
+      <div class="bars" onclick="toggleMenu()">
+        &#9776;
+        <!-- Bars icon -->
+      </div>
+      <div class="menu">
+        <div class="header_links">
+          <ul>
+            <li onclick="window.location.href='index.html'">Home</li>
+            <li onclick="window.location.href='products.html'">Products</li>
+            <li onclick="window.location.href='#about'">About us</li>
+            <li onclick="window.location.href='contact.html'">Contact Us</li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="header_icons">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </header>
+          <section class="details">
+            <div class="details_container">
+                <div class="details_item">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/hero_bg.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/neverStop_bg1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/neverStop_bg2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/p1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/summer_bg.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="details_content">
+                        <h2>Step into Style: Black & White Perfection</h2>
+                        <p>
+                          Unmatched versatility and comfort for every step you take. Crafted for those who dare to stand out.
+                        </p>
+                        <div class="stars">
+                            
+                            <button onclick="window.location.href='contact.html'">Order Now</button>
+                        </div>
+                </div>
+                </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer_container">
+              <div class="footer_logo">
+                <img src="./images/logo.png" alt="" />
+                <h2>Contact Us</h2>
+                <div class="footer_logo_contact">
+                  <p>FlexiFeet@gmail.com</p>
+                  <span>+201010878725</span>
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+              </div>
+              <div class="footer_follow">
+                <h2>Follow <span>Us</span></h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="./JS/app.js"></script>
+  </body>
+</html>
